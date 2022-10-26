@@ -75,7 +75,6 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         }
     }
     private fun subscribeToObserver(){
-
         mainViewModel.mediaItem.observe(viewLifecycleOwner){
             when(it.status){
                 Status.SUCCESS->{

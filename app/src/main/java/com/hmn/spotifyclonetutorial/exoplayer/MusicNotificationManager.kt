@@ -12,8 +12,7 @@ import com.bumptech.glide.request.transition.Transition
 import com.google.android.exoplayer2.Player
 import com.google.android.exoplayer2.ui.PlayerNotificationManager
 import com.hmn.spotifyclonetutorial.R
-import com.hmn.spotifyclonetutorial.util.Consts.CHANNEL_DESCRIPTION_RESOURCE_ID
-import com.hmn.spotifyclonetutorial.util.Consts.CHANNEL_NAME_RESOURCE_ID
+
 import com.hmn.spotifyclonetutorial.util.Consts.NOTIFICATION_CHANNEL_ID
 import com.hmn.spotifyclonetutorial.util.Consts.NOTIFICATION_ID
 
