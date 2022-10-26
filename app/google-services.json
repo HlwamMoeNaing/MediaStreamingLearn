@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "857232595657",
+    "project_id": "spotifyclonetutorial-1cc83",
+    "storage_bucket": "spotifyclonetutorial-1cc83.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857232595657:android:94fe501458d9ed1d4b0b18",
+        "android_client_info": {
+          "package_name": "com.hmn.spotifyclonetutorial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857232595657-vlc5rvq8tm7plvavpv0si3rda7mabs6d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz0IhSi928flR4ao3xH9UiEcR2-rA2KGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857232595657-vlc5rvq8tm7plvavpv0si3rda7mabs6d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
