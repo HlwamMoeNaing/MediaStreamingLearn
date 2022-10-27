@@ -3,6 +3,7 @@ package com.hmn.spotifyclonetutorial
 import android.opengl.Visibility
 import android.os.Bundle
 import android.support.v4.media.session.PlaybackStateCompat
+import android.util.Log
 import android.widget.ImageView
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
@@ -133,8 +134,11 @@ class MainActivity : AppCompatActivity() {
         mainViewModel.currentPlayingSong.observe(this) {
             if (it == null) return@observe
 
+            Log.d("@hmn", "")
+
             curPlayingSong = it.toSong()
             glide.load(curPlayingSong?.imageUrl).into(ivCurSongImage)
+
             switchViewPagerToCurrentSong(curPlayingSong ?: return@observe)
         }
 
